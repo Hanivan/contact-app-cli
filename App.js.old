@@ -1,0 +1,18 @@
+// const { pertanyaan, saveContacts } = require("./contacts");
+// const contacts = require("./contacts");
+//
+// const main = async () => {
+//  // tangkap nilai dari tiap pertanyaan
+//  const nama = await contacts.pertanyaan("Masukkan nama anda: ");
+//  const email = await contacts.pertanyaan("Masukkan email anda: ");
+//  const noHP = await contacts.pertanyaan("Masukkan no HP anda: ");
+//
+//  contacts.saveContacts(nama, email, noHP);
+// };
+
+// main();
+
+const yargs = require("yargs");
+
+// Mengambil argument dari cli
+console.log(yargs.argv);
